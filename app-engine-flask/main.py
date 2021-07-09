@@ -8,7 +8,7 @@ app = flask.Flask(__name__)
 @app.route("/", methods=["GET"])
 def hello():
     """ Return a friendly HTTP greeting. """
-    return "Bem vindos - app engine - v1\n"
+    return "Bem vindos-app engine - v1\n"
 
 
 if __name__ == "__main__":
